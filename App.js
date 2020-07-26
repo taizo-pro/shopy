@@ -1,19 +1,31 @@
 import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+
+import {NavigationContainer} from '@react-navigation/native';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import 'react-native-gesture-handler';
+
+import HomeScreen from './screens/HomeScreen';
+import FavoriteScreen from './screens/FavoriteScreen';
+import MypageScreen from './screens/MypageScreen';
+
+const Tab = createBottomTabNavigator();
+
+const TabNavigation = () => {
+  return (
+    <Tab.Navigator>
+      <Tab.Screen name="ホーム" component={HomeScreen} />
+      <Tab.Screen name="お気に入り" component={FavoriteScreen} />
+      <Tab.Screen name="マイページ" component={MypageScreen} />
+    </Tab.Navigator>
+  );
+};
 
 export default class App extends React.Component {
   render() {
     return (
-      <SafeAreaView style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
-        <Text>App</Text>
-      </SafeAreaView>
-    )
+      <NavigationContainer>
+        <TabNavigation />
+      </NavigationContainer>
+    );
   }
 }
