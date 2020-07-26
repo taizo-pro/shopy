@@ -8,11 +8,11 @@ import {
   StatusBar,
 } from 'react-native';
 
-export default class App extends React.Component {
+export default class HomeScreen extends React.Component {
   render() {
     return (
       <SafeAreaView style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
-        <Text>App</Text>
+        <Text>ホーム画面</Text>
       </SafeAreaView>
     )
   }
