@@ -11,9 +11,9 @@ import {
 export default class App extends React.Component {
   render() {
     return (
-      <View>
-        <Text>faafafafaf</Text>
-      </View>
+      <SafeAreaView style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
+        <Text>ホーム画面</Text>
+      </SafeAreaView>
     )
   }
 }
