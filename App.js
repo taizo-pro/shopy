@@ -8,6 +8,8 @@ import HomeScreen from './screens/HomeScreen';
 import FavoriteScreen from './screens/FavoriteScreen';
 import MypageScreen from './screens/MypageScreen';
 
+import Icon from 'react-native-vector-icons'
+
 const Tab = createBottomTabNavigator();
 
 const TabNavigation = () => {
