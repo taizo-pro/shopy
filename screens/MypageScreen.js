@@ -3,16 +3,16 @@ import {View, Text, TouchableOpacity} from 'react-native';
 import {Container, Header, Right, Left, Body, Title} from 'native-base';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-export default class FavoriteScreen extends React.Component {
+export default class MypageScreen extends React.Component {
   render() {
     return (
       <Container>
-        <Header style={{backgroundColor: 'white'}}>
-          <Left />
-          <Body>
+        <Header style={{backgroundColor: 'white',  marginHorizontal: 8}}>
+          <Left style={{flex: 1}} />
+          <Body style={{flex: 1}}>
             <Title>マイページ</Title>
           </Body>
-          <Right>
+          <Right style={{flex: 1}}>
             <TouchableOpacity>
               <Icon name="shopping-cart" size={24} />
             </TouchableOpacity>

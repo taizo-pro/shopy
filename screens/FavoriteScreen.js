@@ -7,10 +7,10 @@ export default class FavoriteScreen extends React.Component {
   render() {
     return (
       <Container>
-        <Header style={{backgroundColor: 'white'}}>
+        <Header style={{backgroundColor: 'white', marginHorizontal: 8}}>
           <Left />
           <Body>
-            <Title>お気に入りリスト</Title>
+            <Title>お気に入り</Title>
           </Body>
           <Right>
             <TouchableOpacity>

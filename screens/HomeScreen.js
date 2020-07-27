@@ -7,7 +7,7 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
       <Container>
-        <Header style={{backgroundColor: 'white'}}>
+        <Header style={{backgroundColor: 'white', marginHorizontal: 8}}>
           <Left />
           <Body>
             <Title>ホーム</Title>
