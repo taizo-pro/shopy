@@ -1,9 +1,12 @@
 import React from 'react';
 
 import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack'
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import 'react-native-gesture-handler';
 
+import TutorialScreen from './screens/TutorialScreen'
+import SignInScreen from './screens/SignInScreen'
 import HomeScreen from './screens/HomeScreen';
 import FavoriteScreen from './screens/FavoriteScreen';
 import MypageScreen from './screens/MypageScreen';
@@ -11,7 +14,17 @@ import MypageScreen from './screens/MypageScreen';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import Ionicon from 'react-native-vector-icons/Ionicons';
 
+const Stack = createStackNavigator()
 const Tab = createBottomTabNavigator();
+
+const StackNavigation = () => {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen name='Tutorial' component={TutorialScreen} />
+      <Stack.Screen name='SignIn' component={SignInScreen} />
+    </Stack.Navigator>
+  )
+}
 
 const TabNavigation = () => {
   return (
@@ -39,7 +52,8 @@ export default class App extends React.Component {
   render() {
     return (
       <NavigationContainer>
-        <TabNavigation />
+        <StackNavigation />
+        {/* <TabNavigation /> */}
       </NavigationContainer>
     );
   }

@@ -3,7 +3,7 @@ import {View, Text, TouchableOpacity} from 'react-native';
 import {Container, Header, Right, Left, Body, Title, Button} from 'native-base';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-export default class FavoriteScreen extends React.Component {
+export default class SignInScreen extends React.Component {
   render() {
     return (
       <Container>
@@ -22,7 +22,7 @@ export default class FavoriteScreen extends React.Component {
 
         <View style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
           <Button>
-            はじめる
+            <Text>はじめる</Text>
           </Button>
         </View>
       </Container>
