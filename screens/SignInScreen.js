@@ -4,10 +4,12 @@ import {Container, Header, Right, Left, Body, Title, Button} from 'native-base';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default class SignInScreen extends React.Component {
-  render() {
+  render() { 
+    console.log(this.props.navigation)
+    console.log('this.props.navigation')
     return (
       <Container>
-        <Header style={{backgroundColor: 'white', marginHorizontal: 8}}>
+        {/* <Header style={{backgroundColor: 'white', marginHorizontal: 8}}>
           <Left>
             <Button transparent>
               <Icon name='back' />
@@ -18,10 +20,12 @@ export default class SignInScreen extends React.Component {
             <Title>shopyをはじめましょう</Title>
           </Body>
           <Right />
-        </Header>
+        </Header> */}
 
         <View style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
-          <Button>
+          <Button
+            onPress={() => this.props.navigation.navigate('App')}
+          >
             <Text>はじめる</Text>
           </Button>
         </View>

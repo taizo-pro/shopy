@@ -1,60 +1,82 @@
-import React from 'react';
+import React, {useContext} from 'react';
 
-import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack'
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import 'react-native-gesture-handler';
+import {createSwitchNavigator, createAppContainer} from 'react-navigation'
+import {createStackNavigator} from 'react-navigation-stack';
+import {createBottomTabNavigator} from 'react-navigation-tabs';
+// import 'react-native-gesture-handler';
 
-import TutorialScreen from './screens/TutorialScreen'
-import SignInScreen from './screens/SignInScreen'
+import TutorialScreen from './screens/TutorialScreen';
+import SignInScreen from './screens/SignInScreen';
 import HomeScreen from './screens/HomeScreen';
 import FavoriteScreen from './screens/FavoriteScreen';
 import MypageScreen from './screens/MypageScreen';
 
 import Icon from 'react-native-vector-icons/FontAwesome';
 import Ionicon from 'react-native-vector-icons/Ionicons';
+import {Button} from 'native-base';
 
-const Stack = createStackNavigator()
-const Tab = createBottomTabNavigator();
+const AuthStack = createStackNavigator({
+  Tutorial: {
+    screen: TutorialScreen,
+    navigationOptions: {
+      headerShown: false
+    }
+  },
+  SignIn: {
+    screen: SignInScreen,
+    navigationOptions: {
+      headerTitle: 'shopyをはじめよう',
+      headerBackTitle: '戻る'
+    }
+  },
+});
 
-const StackNavigation = () => {
-  return (
-    <Stack.Navigator>
-      <Stack.Screen name='Tutorial' component={TutorialScreen} />
-      <Stack.Screen name='SignIn' component={SignInScreen} />
-    </Stack.Navigator>
-  )
-}
+const AppTabStack = createBottomTabNavigator({
+  Home: {
+    screen: HomeScreen,
+    navigationOptions: {
+      tabBarLabel: 'ホーム',
+      tabBarIcon: ({tintColor}) => {
+        return <Icon name="home" color={tintColor} size={25} />;
+      },
+    },
+  },
+  Favorite: {
+    screen: FavoriteScreen,
+    navigationOptions: {
+      tabBarLabel: 'お気に入り',
+      tabBarIcon: ({tintColor}) => {
+        return <Icon name="heart" color={tintColor} size={25} />;
+      },
+    },
+  },
+  Mypage: {
+    screen: MypageScreen,
+    navigationOptions: {
+      tabBarLabel: 'マイページ',
+      tabBarIcon: ({tintColor}) => {
+        return <Icon name="user" color={tintColor} size={25} />;
+      },
+    },
+  },
+});
 
-const TabNavigation = () => {
-  return (
-    <Tab.Navigator
-      screenOptions={({route}) => ({
-        tabBarIcon: ({color, size}) => {
-          if (route.name === 'ホーム') {
-            return <Icon name='home' color={color} size={size} />
-          } else if (route.name === 'お気に入り') {
-            return <Icon name='heart' color={color} size={size} />
-          } else if (route.name === 'マイページ') {
-            return <Icon name='user' color={color} size={size} />
-          }
-        }
-      })}
-    >
-      <Tab.Screen name="ホーム" component={HomeScreen} />
-      <Tab.Screen name="お気に入り" component={FavoriteScreen} />
-      <Tab.Screen name="マイページ" component={MypageScreen} />
-    </Tab.Navigator>
-  );
-};
+const AppContainer = createAppContainer(
+  createSwitchNavigator(
+    {
+      App: AppTabStack,
+      Auth: AuthStack,
+    },
+    {
+      initialRouteName: 'Auth',
+    },
+  ),
+);
 
 export default class App extends React.Component {
   render() {
-    return (
-      <NavigationContainer>
-        <StackNavigation />
-        {/* <TabNavigation /> */}
-      </NavigationContainer>
-    );
+    return(
+      <AppContainer />
+    )
   }
 }
