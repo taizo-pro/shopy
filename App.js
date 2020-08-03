@@ -6,7 +6,7 @@ import {createBottomTabNavigator} from 'react-navigation-tabs';
 // import 'react-native-gesture-handler';
 
 import TutorialScreen from './screens/TutorialScreen';
-import SignInScreen from './screens/SignInScreen';
+import SignUpScreen from './screens/SignUpScreen';
 import HomeScreen from './screens/HomeScreen';
 import FavoriteScreen from './screens/FavoriteScreen';
 import MypageScreen from './screens/MypageScreen';
@@ -35,8 +35,8 @@ const AuthStack = createStackNavigator({
       headerShown: false
     }
   },
-  SignIn: {
-    screen: SignInScreen,
+  SignUp: {
+    screen: SignUpScreen,
     navigationOptions: {
       headerTitle: 'shopyをはじめよう',
       headerBackTitle: '戻る'

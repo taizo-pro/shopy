@@ -17,7 +17,7 @@ export default class TutorialScreen extends React.Component {
         <Button
           style={{alignSelf: 'center'}}
           onPress={() => {
-            this.props.navigation.navigate('SignIn');
+            this.props.navigation.navigate('SignUp');
           }}>
           <Text>すぐにはじめる</Text>
         </Button>

@@ -18,7 +18,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 import firebase from 'firebase';
 
-export default class SignInScreen extends React.Component {
+export default class SignUpScreen extends React.Component {
   state = {
     email: '',
     password: '',
