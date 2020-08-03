@@ -7,6 +7,7 @@ import {createBottomTabNavigator} from 'react-navigation-tabs';
 
 import TutorialScreen from './screens/TutorialScreen';
 import SignUpScreen from './screens/SignUpScreen';
+import SignInScreen from './screens/SignInScreen';
 import HomeScreen from './screens/HomeScreen';
 import FavoriteScreen from './screens/FavoriteScreen';
 import MypageScreen from './screens/MypageScreen';
@@ -39,6 +40,13 @@ const AuthStack = createStackNavigator({
     screen: SignUpScreen,
     navigationOptions: {
       headerTitle: 'shopyをはじめよう',
+      headerBackTitle: '戻る'
+    }
+  },
+  SignIn: {
+    screen: SignInScreen,
+    navigationOptions: {
+      headerTitle: 'ログイン',
       headerBackTitle: '戻る'
     }
   },

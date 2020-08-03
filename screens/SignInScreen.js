@@ -18,7 +18,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 import firebase from 'firebase';
 
-export default class SignUpScreen extends React.Component {
+export default class SignInScreen extends React.Component {
   state = {
     email: '',
     password: '',
@@ -28,7 +28,7 @@ export default class SignUpScreen extends React.Component {
     try {
       await firebase
         .auth()
-        .createUserWithEmailAndPassword(this.state.email, this.state.password);
+        .signInWithEmailAndPassword(this.state.email, this.state.password);
       console.log('email login success');
       this.props.navigation.navigate('App')
     } catch {
@@ -77,17 +77,9 @@ export default class SignUpScreen extends React.Component {
                 flex: 1,
                 fontSize: 18,
               }}>
-              はじめる
+              ログインする
             </Text>
           </Button>
-        <View style={{flexDirection: 'row', alignSelf: 'center', margin: 30}}>
-          <Text>登録済みですか？</Text>
-          <TouchableOpacity
-            onPress={() => {this.props.navigation.navigate('SignIn')}}
-          >
-            <Text style={{color: 'deepskyblue'}}>ログイン</Text>
-          </TouchableOpacity>
-        </View>
         </View>
       </Container>
     );
