@@ -11,15 +11,15 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2C3F269A2A3352A0E2AEF8E8 /* libPods-shopy-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF07290E9327723C3C124DCB /* libPods-shopy-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* shopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* shopyTests.m */; };
+		4B9456D8957ABA75D0E42027 /* libPods-shopy-shopyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C2DC1D1BA20BA908E05459 /* libPods-shopy-shopyTests.a */; };
+		58D9EED653AB21AD83AA97D1 /* libPods-shopy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F1E340BF0B4FC46C7AF5C5 /* libPods-shopy.a */; };
+		693C45F9F3F0590FFEF0AE9E /* libPods-shopy-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AF9EFEE6604F506CF04CB1 /* libPods-shopy-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		8AA4ED7087EF3598FB7CB895 /* libPods-shopy-shopyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AACE8A9CD3001A43B9B6AE2E /* libPods-shopy-shopyTests.a */; };
-		A7B7D7ADF66E5868F3E86B92 /* libPods-shopy-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97670659563C78A5DE34BF09 /* libPods-shopy-tvOS.a */; };
-		C30205DBE8147D3350D5A712 /* libPods-shopy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E53A2AED579036C703CE0B /* libPods-shopy.a */; };
+		91B673C9975B4DFFFD4E2B0E /* libPods-shopy-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C16B58F4B79DA6F53CBDF5E8 /* libPods-shopy-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,27 +44,27 @@
 		00E356EE1AD99517003FC87E /* shopyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shopyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* shopyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shopyTests.m; sourceTree = "<group>"; };
+		0CC3F1C11075C9001B8358E4 /* Pods-shopy-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy-tvOS.release.xcconfig"; path = "Target Support Files/Pods-shopy-tvOS/Pods-shopy-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* shopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = shopy/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = shopy/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = shopy/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = shopy/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = shopy/main.m; sourceTree = "<group>"; };
-		183A73314FE0847237E62856 /* Pods-shopy-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-shopy-tvOSTests/Pods-shopy-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F66441FBF09785CAA51E820 /* Pods-shopy-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-shopy-tvOS/Pods-shopy-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* shopy-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shopy-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* shopy-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shopy-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BDB508D3CBCAAB63DCA6E43 /* Pods-shopy-shopyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy-shopyTests.debug.xcconfig"; path = "Target Support Files/Pods-shopy-shopyTests/Pods-shopy-shopyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4343CD5401CA637174918A3B /* Pods-shopy-shopyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy-shopyTests.release.xcconfig"; path = "Target Support Files/Pods-shopy-shopyTests/Pods-shopy-shopyTests.release.xcconfig"; sourceTree = "<group>"; };
-		4B8D970B90C378B78965370A /* Pods-shopy-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-shopy-tvOS/Pods-shopy-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		6BD33370299B21046BE49816 /* Pods-shopy-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-shopy-tvOSTests/Pods-shopy-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36C2DC1D1BA20BA908E05459 /* libPods-shopy-shopyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shopy-shopyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F1E340BF0B4FC46C7AF5C5 /* libPods-shopy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shopy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A8CF87F01013248E4859E2 /* Pods-shopy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy.release.xcconfig"; path = "Target Support Files/Pods-shopy/Pods-shopy.release.xcconfig"; sourceTree = "<group>"; };
+		68E7EC88A1404D475575323F /* Pods-shopy-shopyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy-shopyTests.release.xcconfig"; path = "Target Support Files/Pods-shopy-shopyTests/Pods-shopy-shopyTests.release.xcconfig"; sourceTree = "<group>"; };
+		70B6F9F7310AC61A0CC4F44A /* Pods-shopy-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-shopy-tvOSTests/Pods-shopy-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = shopy/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85E53A2AED579036C703CE0B /* libPods-shopy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shopy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		97670659563C78A5DE34BF09 /* libPods-shopy-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shopy-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A045C87E281929A1BF6E4203 /* Pods-shopy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy.debug.xcconfig"; path = "Target Support Files/Pods-shopy/Pods-shopy.debug.xcconfig"; sourceTree = "<group>"; };
-		AACE8A9CD3001A43B9B6AE2E /* libPods-shopy-shopyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shopy-shopyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF07290E9327723C3C124DCB /* libPods-shopy-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shopy-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF19D026780079A0D4A8BCC6 /* Pods-shopy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy.release.xcconfig"; path = "Target Support Files/Pods-shopy/Pods-shopy.release.xcconfig"; sourceTree = "<group>"; };
-		E266434A97F87C81EF6F166E /* Pods-shopy-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy-tvOS.release.xcconfig"; path = "Target Support Files/Pods-shopy-tvOS/Pods-shopy-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		8E73F3E0F4BA3B1D9ABC7328 /* Pods-shopy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy.debug.xcconfig"; path = "Target Support Files/Pods-shopy/Pods-shopy.debug.xcconfig"; sourceTree = "<group>"; };
+		A2EC1D4F9270456B976231E0 /* Pods-shopy-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-shopy-tvOSTests/Pods-shopy-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C16B58F4B79DA6F53CBDF5E8 /* libPods-shopy-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shopy-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4443FB84FB796F7A29CB098 /* Pods-shopy-shopyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopy-shopyTests.debug.xcconfig"; path = "Target Support Files/Pods-shopy-shopyTests/Pods-shopy-shopyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6AF9EFEE6604F506CF04CB1 /* libPods-shopy-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shopy-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA4ED7087EF3598FB7CB895 /* libPods-shopy-shopyTests.a in Frameworks */,
+				4B9456D8957ABA75D0E42027 /* libPods-shopy-shopyTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C30205DBE8147D3350D5A712 /* libPods-shopy.a in Frameworks */,
+				58D9EED653AB21AD83AA97D1 /* libPods-shopy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7B7D7ADF66E5868F3E86B92 /* libPods-shopy-tvOS.a in Frameworks */,
+				91B673C9975B4DFFFD4E2B0E /* libPods-shopy-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C3F269A2A3352A0E2AEF8E8 /* libPods-shopy-tvOSTests.a in Frameworks */,
+				693C45F9F3F0590FFEF0AE9E /* libPods-shopy-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,33 +136,33 @@
 			name = shopy;
 			sourceTree = "<group>";
 		};
-		2B3DE86AA5C23CFC6AFDFEDC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A045C87E281929A1BF6E4203 /* Pods-shopy.debug.xcconfig */,
-				AF19D026780079A0D4A8BCC6 /* Pods-shopy.release.xcconfig */,
-				3BDB508D3CBCAAB63DCA6E43 /* Pods-shopy-shopyTests.debug.xcconfig */,
-				4343CD5401CA637174918A3B /* Pods-shopy-shopyTests.release.xcconfig */,
-				4B8D970B90C378B78965370A /* Pods-shopy-tvOS.debug.xcconfig */,
-				E266434A97F87C81EF6F166E /* Pods-shopy-tvOS.release.xcconfig */,
-				6BD33370299B21046BE49816 /* Pods-shopy-tvOSTests.debug.xcconfig */,
-				183A73314FE0847237E62856 /* Pods-shopy-tvOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				85E53A2AED579036C703CE0B /* libPods-shopy.a */,
-				AACE8A9CD3001A43B9B6AE2E /* libPods-shopy-shopyTests.a */,
-				97670659563C78A5DE34BF09 /* libPods-shopy-tvOS.a */,
-				AF07290E9327723C3C124DCB /* libPods-shopy-tvOSTests.a */,
+				46F1E340BF0B4FC46C7AF5C5 /* libPods-shopy.a */,
+				36C2DC1D1BA20BA908E05459 /* libPods-shopy-shopyTests.a */,
+				C16B58F4B79DA6F53CBDF5E8 /* libPods-shopy-tvOS.a */,
+				D6AF9EFEE6604F506CF04CB1 /* libPods-shopy-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FC4F316744345F952ED8636 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E73F3E0F4BA3B1D9ABC7328 /* Pods-shopy.debug.xcconfig */,
+				62A8CF87F01013248E4859E2 /* Pods-shopy.release.xcconfig */,
+				D4443FB84FB796F7A29CB098 /* Pods-shopy-shopyTests.debug.xcconfig */,
+				68E7EC88A1404D475575323F /* Pods-shopy-shopyTests.release.xcconfig */,
+				1F66441FBF09785CAA51E820 /* Pods-shopy-tvOS.debug.xcconfig */,
+				0CC3F1C11075C9001B8358E4 /* Pods-shopy-tvOS.release.xcconfig */,
+				70B6F9F7310AC61A0CC4F44A /* Pods-shopy-tvOSTests.debug.xcconfig */,
+				A2EC1D4F9270456B976231E0 /* Pods-shopy-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -180,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* shopyTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				2B3DE86AA5C23CFC6AFDFEDC /* Pods */,
+				3FC4F316744345F952ED8636 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -205,11 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "shopyTests" */;
 			buildPhases = (
-				743305ABF31644A650B1D969 /* [CP] Check Pods Manifest.lock */,
+				675ACCA52700D67380B02E7A /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				BEFEB7D52DD01CCEB6AA11B0 /* [CP] Copy Pods Resources */,
+				A3D8155E209F7AFF49A5A25E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,13 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "shopy" */;
 			buildPhases = (
-				0ABD32A2BD85E9EF906F7C1C /* [CP] Check Pods Manifest.lock */,
+				B6DD665B4DF143BBB6E905A6 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				8D17E9EC55DFE483D7177EE5 /* [CP] Copy Pods Resources */,
+				2EF20C17471C7778E7E48524 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "shopy-tvOS" */;
 			buildPhases = (
-				286F842B0F6011D81F752927 /* [CP] Check Pods Manifest.lock */,
+				5FDE30311F503994A9F8CC35 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "shopy-tvOSTests" */;
 			buildPhases = (
-				27C8DBE6C84DCC3E430B9764 /* [CP] Check Pods Manifest.lock */,
+				BCE8CB18A203916DCAFF5FF5 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -377,72 +377,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0ABD32A2BD85E9EF906F7C1C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-shopy-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		27C8DBE6C84DCC3E430B9764 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-shopy-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		286F842B0F6011D81F752927 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-shopy-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -457,29 +391,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		743305ABF31644A650B1D969 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-shopy-shopyTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8D17E9EC55DFE483D7177EE5 /* [CP] Copy Pods Resources */ = {
+		2EF20C17471C7778E7E48524 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -529,7 +441,51 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shopy/Pods-shopy-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BEFEB7D52DD01CCEB6AA11B0 /* [CP] Copy Pods Resources */ = {
+		5FDE30311F503994A9F8CC35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shopy-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		675ACCA52700D67380B02E7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shopy-shopyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D8155E209F7AFF49A5A25E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -577,6 +533,50 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shopy-shopyTests/Pods-shopy-shopyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6DD665B4DF143BBB6E905A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shopy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCE8CB18A203916DCAFF5FF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shopy-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -672,7 +672,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BDB508D3CBCAAB63DCA6E43 /* Pods-shopy-shopyTests.debug.xcconfig */;
+			baseConfigurationReference = D4443FB84FB796F7A29CB098 /* Pods-shopy-shopyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -695,7 +695,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4343CD5401CA637174918A3B /* Pods-shopy-shopyTests.release.xcconfig */;
+			baseConfigurationReference = 68E7EC88A1404D475575323F /* Pods-shopy-shopyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -715,7 +715,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A045C87E281929A1BF6E4203 /* Pods-shopy.debug.xcconfig */;
+			baseConfigurationReference = 8E73F3E0F4BA3B1D9ABC7328 /* Pods-shopy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -738,7 +738,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF19D026780079A0D4A8BCC6 /* Pods-shopy.release.xcconfig */;
+			baseConfigurationReference = 62A8CF87F01013248E4859E2 /* Pods-shopy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -759,7 +759,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B8D970B90C378B78965370A /* Pods-shopy-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 1F66441FBF09785CAA51E820 /* Pods-shopy-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -787,7 +787,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E266434A97F87C81EF6F166E /* Pods-shopy-tvOS.release.xcconfig */;
+			baseConfigurationReference = 0CC3F1C11075C9001B8358E4 /* Pods-shopy-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -815,7 +815,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BD33370299B21046BE49816 /* Pods-shopy-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 70B6F9F7310AC61A0CC4F44A /* Pods-shopy-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -842,7 +842,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 183A73314FE0847237E62856 /* Pods-shopy-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = A2EC1D4F9270456B976231E0 /* Pods-shopy-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

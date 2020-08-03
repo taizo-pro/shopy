@@ -12,8 +12,21 @@ import FavoriteScreen from './screens/FavoriteScreen';
 import MypageScreen from './screens/MypageScreen';
 
 import Icon from 'react-native-vector-icons/FontAwesome';
-import Ionicon from 'react-native-vector-icons/Ionicons';
-import {Button} from 'native-base';
+import firebase from 'firebase'
+import env from './env.json'
+
+const firebaseConfig = {
+  apiKey: env.FIREBASE_API_KEY,
+  authDomain: env.FIREBASE_AUTH_DOMAIN,
+  databaseURL: env.FIREBASE_DB_URL,
+  projectId: env.FIREBASE_PROJECT_ID,
+  storageBucket: env.FIREBASE_STORAGE,
+  messagingSenderId: env.FIREBASE_SENDER_ID,
+  appId: env.FIREBASE_APP_ID,
+  measurementId: env.FIREBASE_MEASUREMENT_ID,
+};
+
+firebase.initializeApp(firebaseConfig);
 
 const AuthStack = createStackNavigator({
   Tutorial: {
