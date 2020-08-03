@@ -12,14 +12,26 @@ export default class TutorialScreen extends React.Component {
       <View style={{alignItems: 'center'}}>
         <Image
           source={require('../assets/AddtoCart-rafiki.png')}
-          style={{width: 300, height: 300}}
+          style={{width: 300, height: 300, marginTop: 100}}
         />
         <Button
-          style={{alignSelf: 'center'}}
+          style={{
+            backgroundColor: 'limegreen',
+            width: 250,
+            alignSelf: 'center',
+          }}
           onPress={() => {
             this.props.navigation.navigate('SignUp');
           }}>
-          <Text>すぐにはじめる</Text>
+          <Text
+            style={{
+              color: 'white',
+              textAlign: 'center',
+              flex: 1,
+              fontSize: 18,
+            }}>
+            すぐにはじめる
+          </Text>
         </Button>
       </View>
     );
