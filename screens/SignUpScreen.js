@@ -26,19 +26,6 @@ export default class SignUpScreen extends React.Component {
     password: '',
   };
 
-  facebookSignUp = () => {
-    return (
-      <Button
-        title="Facebook"
-        onPress={() =>
-          onFacebookButtonPress().then(() => {
-            console.log('Signed in with Facebook!');
-          })
-        }
-      />
-    );
-  };
-
   onFacebookButtonPress = async () => {
     const result = await LoginManager.logInWithPermissions([
       'public_profile',
@@ -62,7 +49,9 @@ export default class SignUpScreen extends React.Component {
     );
 
     // Sign-in the user with the credential
+    this.props.navigation.navigate('App')
     return auth().signInWithCredential(facebookCredential);
+
   };
 
   handleSubmit = async () => {
@@ -121,16 +110,24 @@ export default class SignUpScreen extends React.Component {
               はじめる
             </Text>
           </Button>
-          <View style={{flexDirection: 'row', alignSelf: 'center', margin: 30}}>
             <Button
-            style={{width: 200}}
-              title="Facebook"
+              style={{width: 250, alignSelf: 'center',}}
               onPress={() =>
                 this.onFacebookButtonPress().then(() => {
                   console.log('Signed in with Facebook!');
-                })
-              }
-            />
+                })}
+            >
+              <Text
+              style={{
+                color: 'white',
+                textAlign: 'center',
+                flex: 1,
+                fontSize: 18,
+              }}>
+              Facebookでログイン
+            </Text>
+            </Button>
+          <View style={{flexDirection: 'row', alignSelf: 'center', margin: 30}}>
             <Text>登録済みですか？</Text>
             <TouchableOpacity
               onPress={() => {
